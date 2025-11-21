@@ -1,0 +1,272 @@
+
+   :root {
+    --text: #3a3a3a;
+    --background: #f4f4fb;
+    --primary: #ff6b6b;   
+    --secondary: #ff9ed1; 
+    --accent: #c3b4ff;  
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  #wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 4px solid var(--primary);
+    border-radius: 8px;
+    padding-bottom: 1.5rem;
+  }
+  
+
+  header {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+  
+  .logo {
+    font-size: 1.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  
+  .tagline {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent);
+    padding: 0.6rem 1rem;
+  }
+  
+  .main-nav {
+    list-style-type: none;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  nav a:hover {
+    color: var(--secondary);
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 0.3rem;
+  }
+  
+  .search-form input[type="search"] {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--secondary);
+    border-radius: 4px;
+  }
+  
+  .search-form button {
+    padding: 0.25rem 0.75rem;
+    border: none;
+    background-color: var(--secondary);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-form button:hover {
+    background-color: var(--primary);
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background-color: var(--secondary);
+    color: white;
+  }
+  
+  #hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+  }
+  
+  #hero p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+
+  .row {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1.5rem 1rem;
+  }
+  
+
+  .top-headline h2,
+  .socials h2,
+  .newsletter h2,
+  .side-nav h2 {
+    background-color: var(--accent);
+    color: white;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .top-headline {
+    flex: 2;
+    background-color: white;
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+  }
+  
+  .headline-inner {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+  }
+  
+  .image-placeholder {
+    flex: 1;
+    border: 2px dashed var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+    color: var(--text);
+    font-size: 0.9rem;
+  }
+  
+  .text-description {
+    flex: 2;
+  }
+  
+  .text-description h3 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+  }
+  
+  .socials {
+    flex: 1;
+    background-color: white;
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+  }
+  
+  .video-placeholder {
+    border: 2px dashed var(--secondary);
+    margin: 0.75rem;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+  }
+  
+  .share-links {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.75rem;
+    color: var(--primary);
+  }
+
+  .newsletter {
+    flex: 2;
+    background-color: white;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+  }
+  
+  .card-row {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: var(--background);
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--secondary);
+  }
+  
+  .image-placeholder.small {
+    min-height: 80px;
+  }
+  
+
+  .side-nav {
+    flex: 1;
+    background-color: white;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+  }
+  
+  .side-nav ul {
+    list-style-type: disc;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .side-nav li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .side-nav a {
+    color: var(--primary);
+  }
+  
+  footer {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--text);
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  
+  footer a:hover {
+    color: var(--secondary);
+  }
+  
+  footer p {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  
