@@ -4,22 +4,23 @@
   <meta charset="UTF-8">
   <title>Explore Your Passions</title>
   <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Explore Your Passions helps people find new hobbies and activities to enjoy in their free time.">
 </head>
 
 <body>
   <div id="wrapper">
-    
+
     <header>
       <div class="logo">Explore Your Passions</div>
       <p class="tagline">Discover new hobbies and activities</p>
     </header>
 
-
     <nav>
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
 
       <form class="search-form">
@@ -29,72 +30,74 @@
       </form>
     </nav>
 
-
-
     <main>
 
-     
       <section id="hero">
         <h1>Explore Your Passions</h1>
         <p>Find new hobbies, creative outlets, and activities you can enjoy in your free time.</p>
       </section>
 
-
-     
       <section class="row">
-
-   
         <article class="top-headline">
           <h2>Top Headline</h2>
-
           <div class="headline-inner">
-            <div class="image-placeholder">Image</div>
-
+            <div class="image-area" style="flex:1.1;">
+              <img src="https://primexgardencenter.com/wp-content/uploads/2022/02/Primex-Garden-Center-Introduction-to-Gardening-vegetable-garden-in-the-summer.jpg"
+                   alt="Gardening Photo"
+                   style="width:100%; height:auto; border-radius:4px; object-fit:cover;">
+            </div>
             <div class="text-description">
               <h3>Featured Activity: Gardening</h3>
               <p>
                 Gardening is a peaceful activity that helps you relax and connect with nature.
                 You can start small by growing herbs, flowers, or easy plants in pots or a small
                 corner of your yard. Gardening teaches patience and gives you a sense of
-                accomplishment as you watch your plants grow. It’s a great way to spend time
-                outdoors and enjoy something you created yourself.
+                accomplishment as you watch your plants grow.
               </p>
             </div>
           </div>
         </article>
 
-     
         <aside class="socials">
           <h2>Socials</h2>
-          <div class="video-placeholder">Video</div>
+          <div style="padding: 1rem;">
+            <iframe width="100%" height="315"
+                    src="https://www.youtube.com/embed/3j69hZCBcH0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+          </div>
           <a class="share-links" href="#">Share &amp; Links</a>
         </aside>
-
       </section>
 
-
-  
       <section class="row">
-
-
         <section class="newsletter">
           <h2>Monthly Newsletter</h2>
-
           <div class="card-row">
 
-            
             <article class="card">
-              <div class="image-placeholder small">Image</div>
+              <div class="image-area">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTukUe2b_4EuOEN8B1SfFlhDm1F_NP_N8huFg&s"
+                     alt="Yoga Photo"
+                     style="width:100%; height:200px; border-radius:4px; object-fit:cover;">
+              </div>
               <h3>Topic 1: Yoga</h3>
               <p>
                 Yoga is a calming activity that helps improve flexibility, strength,
-                and focus. It’s great for reducing stress and can be done at home
+                and focus. It's great for reducing stress and can be done at home
                 with just a mat and a little space.
               </p>
             </article>
 
             <article class="card">
-              <div class="image-placeholder small">Image</div>
+              <div class="image-area">
+                <img src="https://www.nami.org/wp-content/uploads/media/NAMI-Media/BlogImageArchive/2021/biking-blog.jpeg"
+                     alt="Biking Photo"
+                     style="width:100%; height:200px; border-radius:4px; object-fit:cover;">
+              </div>
               <h3>Topic 2: Biking</h3>
               <p>
                 Biking is a fun way to stay active and explore your surroundings.
@@ -104,8 +107,12 @@
             </article>
 
             <article class="card">
-              <div class="image-placeholder small">Image</div>
-              <h3>Topic 3: Cooking & Baking</h3>
+              <div class="image-area">
+                <img src="https://www.chowhound.com/img/gallery/a-guide-to-the-essential-baking-tools-everyone-should-own/intro-1704291251.jpg"
+                     alt="Cooking and Baking Photo"
+                     style="width:100%; height:200px; border-radius:4px; object-fit:cover;">
+              </div>
+              <h3>Topic 3: Cooking &amp; Baking</h3>
               <p>
                 Cooking and baking let you express creativity while learning new skills.
                 Start with simple recipes like pasta or muffins and enjoy the delicious
@@ -119,26 +126,24 @@
         <aside class="side-nav">
           <h2>Navigate</h2>
           <ul>
-            <li><a href="#">Getting Started</a></li>
-            <li><a href="#">Creative Hobbies</a></li>
-            <li><a href="#">Outdoor Activities</a></li>
-            <li><a href="#">Relax &amp; Unwind</a></li>
+            <li><a href="explore.html">Getting Started</a></li>
+            <li><a href="explore.html#creative">Creative Hobbies</a></li>
+            <li><a href="explore.html#outdoor">Outdoor Activities</a></li>
+            <li><a href="explore.html#relax">Relax &amp; Unwind</a></li>
           </ul>
         </aside>
-
       </section>
 
     </main>
 
     <footer>
       <ul class="footer-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Privacy</a></li>
         <li><a href="#">Terms</a></li>
+        <li><a href="mailto:harinisekar@gmail.com">Email</a></li>
       </ul>
-
-      <p>&copy; 2025 Explore Your Passions.</p>
     </footer>
 
   </div>
