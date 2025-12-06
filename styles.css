@@ -314,7 +314,6 @@ footer a:hover {
   background-color: #f8f4ff;
 }
 
-/* ⭐ Center + Bold the creative hobbies intro line */
 #creative .text-description p:first-of-type {
   font-weight: bold;
   font-size: 1.25rem;
@@ -322,14 +321,12 @@ footer a:hover {
   text-align: center;
 }
 
-/* ⭐ Make Creative Hobbies image bigger (height) */
 #creative .image-area img {
   height: 320px !important;
   object-fit: cover;
   border-radius: 8px;
 }
 
-/* ⭐ Center bullet list in Creative Hobbies */
 #creative .text-description {
   display: flex;
   flex-direction: column;
@@ -346,7 +343,6 @@ footer a:hover {
   margin: 0 auto;
 }
 
-/* ---------- ABOUT PAGE LAYOUT TWEAKS ---------- */
 
 .about-row {
   display: flex;
@@ -380,14 +376,12 @@ footer a:hover {
   border-radius: 6px;
 }
 
-/* ⭐ KEEP image big + align bullets properly */
 .who-box .box-inner .image-area img {
-  height: 290px !important;  /* ⬅ made bigger + override inline height */
+  height: 290px !important; 
   object-fit: cover;
   border-radius: 6px;
 }
 
-/* ⭐ Center section text, but align bullets left */
 .who-box .box-inner {
   align-items: center;
   text-align: center;
